@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: x-cloud-service-admin
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
